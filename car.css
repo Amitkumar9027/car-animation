@@ -41,3 +41,19 @@ animation: road_move linear 2s infinite;
     left: 100px;
     animation: shaking linear 1s infinite;
 }
+.wheel1 img{
+    position: relative;
+    height: 89px;
+    width: 89px;
+    left: 37px;
+    top: 37px;
+    animation: wheel_rotate linear .1s infinite;
+}
+.wheel2 img{
+    position: relative;
+    height: 92px;
+    width: 90px;
+    left: 228px;
+    top: -52px;
+    animation: wheel_rotate linear .3s infinite;
+}
