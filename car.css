@@ -29,3 +29,15 @@ body{
     top: 70vh;
 animation: road_move linear 2s infinite;
 }
+.car{
+
+    position: absolute;
+    background-image: url(imags/car_body.png);
+    height: 100px;
+    width: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 30vh;
+    left: 100px;
+    animation: shaking linear 1s infinite;
+}
