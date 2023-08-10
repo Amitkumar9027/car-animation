@@ -12,3 +12,20 @@ body{
     background-repeat: no-repeat;
     position: absolute;
 }
+.trees{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imags/trees.png);
+    background-size: cover; 
+    position: absolute;
+    top: -144px; 
+}
+.track{
+    height: 60vh;
+    width: 800vw;
+    background-image: url(imags/track.png);
+    background-repeat: repeat-x; 
+    position: absolute;
+    top: 70vh;
+animation: road_move linear 2s infinite;
+}
