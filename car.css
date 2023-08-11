@@ -67,3 +67,17 @@ animation: road_move linear 2s infinite;
         transform: translateX(-500vw);
     }
 }
+@keyframes shaking {
+    25%{
+        bottom: 29.5vh;
+    }
+    50%{
+        bottom: 30.5vh;
+    }
+    75%{
+        bottom: 29.5vh;
+    }
+    100%{
+        bottom: 30.5vh;
+    }
+}
