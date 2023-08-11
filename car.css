@@ -62,3 +62,8 @@ animation: road_move linear 2s infinite;
         transform: rotate(360deg);
     }
 }
+@keyframes road_move{
+    100%{
+        transform: translateX(-500vw);
+    }
+}
